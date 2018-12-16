@@ -5,6 +5,7 @@ Here is Android Paging Library sample application for you. Android Paging Librar
 Many app displays a large set of data to the users, for example consider the Amazon App, it shows you the list of products, and the app has too many products, but it do not loads all the product at once, it shows you some products, as soon as you reaches the last item of the product list it loads more products. This is called paging. 
 
 <img src="https://github.com/rkandoroidrepo/android-paging-library-sample/blob/master/app/src/main/res/raw/gif.gif?raw=true" width="300" height="500" />
+
 #### Why use Paging?
 
 Assume you have more than 1000 items for your list that you are fetching from a backend server. Here are the cons if you are fetching everything at once.

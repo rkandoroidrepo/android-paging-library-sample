@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Paging Library Sample</string>
+    <string name="menu_search">Search</string>
+
+    <string name="connection_problem">Please check your internet connectivity and try again</string>
+    <string name="network_problem">Please check your internet connectivity and try again</string>
+    <string name="no_result">No Result!</string>
+
+    <!--Internet-->
+    <string name="check_internet">Please check your internet connectivity and try again</string>
+    <string name="retry">Retry</string>
+    <string name="no_connection">No Connection</string>
+</resources>

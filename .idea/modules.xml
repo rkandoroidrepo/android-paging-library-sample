@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MVP_WITH_DAGGER.iml" filepath="$PROJECT_DIR$/MVP_WITH_DAGGER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-paging-library-sample.iml" filepath="$PROJECT_DIR$/android-paging-library-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

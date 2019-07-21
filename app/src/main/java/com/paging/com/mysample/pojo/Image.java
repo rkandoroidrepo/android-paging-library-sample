@@ -3,9 +3,6 @@ package com.paging.com.mysample.pojo;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by ramkrishna.kushwah on 21/07/2019
- */
 public class Image {
 
     @SerializedName("largeImageURL")

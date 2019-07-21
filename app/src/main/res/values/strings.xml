@@ -10,7 +10,4 @@
     <string name="check_internet">Please check your internet connectivity and try again</string>
     <string name="retry">Retry</string>
     <string name="no_connection">No Connection</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

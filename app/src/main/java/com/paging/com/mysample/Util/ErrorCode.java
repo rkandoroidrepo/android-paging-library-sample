@@ -1,8 +1,5 @@
 package com.paging.com.mysample.Util;
 
-/**
- * Created by ramkrishna.kushwah on 21/07/2019
- */
 public class ErrorCode {
 
     /**
@@ -10,5 +7,8 @@ public class ErrorCode {
      * check_internet
      */
     public static final int NETWORK_ERROR = 100;
+    public static final int CONNECTION_PROBLEM = 200;
+
+    public static final int NO_RESULT = 300;
 
 }

@@ -4,6 +4,9 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+/**
+ * Created by ramkrishna.kushwah on 21/07/2019
+ */
 public class AppNetworkStatus implements NetworkStatus {
 
     private Context context;
@@ -14,14 +17,11 @@ public class AppNetworkStatus implements NetworkStatus {
 
     @Override
     public boolean isOnline() {
-        ConnectivityManager manager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        ConnectivityManager manager = (ConnectivityManager) context
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = manager.getActiveNetworkInfo();
-        if (networkInfo != null && networkInfo.isConnected()) {
-            // Device is online
-            return true;
-        } else {
-            // Device is not online
-            return false;
-        }
+        // Device is online
+        // Device is not online
+        return networkInfo != null && networkInfo.isConnected();
     }
 }
